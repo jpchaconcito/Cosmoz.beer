@@ -1,0 +1,75 @@
+/* Estilos para la sección de productos */
+.productos {
+    padding: 50px;
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+.productos h2 {
+    text-align: center;
+    color: #333; /* Color de texto oscuro */
+}
+
+.carrusel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carrusel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.opcion {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #d2d2d2; /* Color de fondo de las opciones */
+    border: 1px solid #8827d2; /* Borde alrededor de las opciones */
+    margin-right: 10px; /* Espacio entre las opciones */
+    padding: 10px; /* Espaciado interno en las opciones */
+    display: flex;
+    align-items: center;
+}
+
+.img-opcion {
+    width: 50%; /* Ajustar según sea necesario */
+    height: 300px;
+    object-fit: cover; /* Ajusta la imagen para cubrir la caja manteniendo su relación de aspecto */
+}
+
+.texto-opcion {
+    box-sizing: border-box;
+    padding: 15px;
+    flex: 1;
+}
+
+.texto-opcion h3 {
+    margin-top: 0;
+    color: #333; /* Color de texto oscuro */
+}
+
+.texto-opcion p {
+    color: #666; /* Color de texto más claro */
+}
+
+.texto-opcion h2 {
+    margin-top: 10px;
+    color: #800080; /* Color morado para el precio */
+}
+
+/* Estilos para las flechas de navegación */
+.flechas {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    z-index: 1000; /* Z-index alto para estar por encima de las opciones */
+}
+
+.flechas i {
+    font-size: 2em;
+    color: #800080; /* Color morado */
+    cursor: pointer;
+}
