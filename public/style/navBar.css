@@ -1,14 +1,26 @@
 /* Estilos de la barra de navegación */
 header {
-  background-color: #6c1f85; /* Color morado */
-  color: #ffffff; /* Letras blancas */
+  background-color: #1f002b;
+  /* Color morado */
+  color: #ffffff;
+  /* Letras blancas */
   padding: 2px;
   position: fixed;
-  width: 100%;
+  width: 99;
   top: 0;
   transition: top 0.3s;
   position: sticky;
   z-index: 1000;
+  box-shadow:
+    0 0 2px rgba(148, 0, 211, 1),
+    0 0 4px rgba(148, 0, 211, 1),
+    0 0 8px rgba(148, 0, 211, 1),
+    0 0 16px rgb(87, 38, 127, 1),
+    0 0 32px rgba(87, 38, 127, 1),
+    0 0 48px rgba(87, 38, 127, 1),
+    0 0 50px rgb(48, 20, 71, 1),
+    0 0 60px rgba(48, 20, 71, 1),
+    0 0 70px rgba(48, 20, 71, 1);
 }
 
 nav {
@@ -17,8 +29,8 @@ nav {
   align-items: center;
 }
 
-.logo img {
-  padding-left: 50px;
+.logo {
+  padding-left: 10px;
 }
 
 ul {
@@ -32,10 +44,21 @@ li {
   margin-left: 20px;
 }
 
+li:hover {
+  text-shadow:
+    0 0 2px rgba(148, 0, 211, 1),
+    0 0 4px rgba(148, 0, 211, 1),
+    0 0 8px rgba(148, 0, 211, 1),
+    0 0 16px rgb(87, 38, 127, 1),
+    0 0 32px rgba(87, 38, 127, 1),
+    0 0 48px rgba(87, 38, 127, 1),
+    0 0 50px rgb(48, 20, 71, 1),
+    0 0 60px rgba(48, 20, 71, 1),
+    0 0 70px rgba(48, 20, 71, 1);
+}
+
 a {
   text-decoration: none;
   color: #ffffff;
   font-weight: bold;
 }
-
-

@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="public/style/navBar.css">
     <link rel="stylesheet" href="public/style/inicio.css">
     <link rel="stylesheet" href="public/style/productos.css">
+    <link rel="stylesheet" href="public/style/nosotro.css">
+    <link rel="stylesheet" href="public/style/footer.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COSMOZ</title>
@@ -14,92 +16,250 @@
 <body>
     <header>
         <nav>
-            <img src="public/img/logo.png" alt="logo" height="50px">
+            <img src="public/img/logo.png" alt="logo" height="60px">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Contactos</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="inicio">
-        <div class="color">
-            <h2>Descubre el Universo en Cada Sorbo</h2>
-            <p>En cada botella de Cosmoz, encontrarás la fusión perfecta de ingredientes seleccionados con cuidado y la
-                maestría de nuestros cerveceros. Invitamos a los amantes de la buena cerveza a embarcarse en un viaje
-                cósmico, donde la calidad y la innovación se encuentran en cada sorbo.</p>
-            <p>¿Estás listo para elevar tus sentidos a nuevas alturas? ¡Únete a nosotros en esta odisea cervecera y
-                descubre
-                el universo de sabores que te espera en cada botella de Cosmoz!</p>
-        </div>
+    <section class="inicio" id="inicio">
+        <h2 class="neonv">Descubre el Universo en Cada Sorbo</h2>
+        <p class="neonv">En cada botella de Cosmoz, encontrarás la fusión perfecta de ingredientes seleccionados con
+            cuidado y
+            los conocimientos de nuestra maestra cervecera. Invitamos a los amantes de la buena cerveza a embarcarse
+            en un viaje cósmico, donde la calidad y la innovación se encuentran en cada sorbo.</p>
+        <p class="neonv">¿Estás listo para elevar tus sentidos a nuevas alturas? ¡Únete a nosotros en esta odisea
+            cervecera y
+            descubre el universo de sabores que te espera en cada botella de Cosmoz!</p>
     </section>
 
-    <section class="productos">
-        <h2>Nuestros Productos</h2>
-        <div class="carrusel-container">
-            <div class="carrusel">
-                <!-- Opciones -->
-                <div class="opcion">
-                    <img src="public/img/cervezaMango.jpg" alt="Producto 1" class="img-opcion">
-                    <div class="texto-opcion">
-                        <h3>Nombre Producto 1</h3>
-                        <p>Descripción del producto 1.</p>
-                        <h2>Precio: $X.XX</h2>
+    <section class="productos" id="productos">
+        <div class="producto">
+            <div class="container-slider">
+                <div class="slider" id="slider-blond">
+                    <div class="slider-section slider-section-blond">
+                        <img src="public/img/cervezaMango.jpg" alt="" class="slider-img">
+                        <div class="description">
+                            <h2>Título de la Cerveza</h2>
+                            <p>Descripción de la cerveza. Puede ser un poco más larga si es necesario.</p>
+                            <h3>Información Adicional</h3>
+                            <h2>$00000</h2>
+                        </div>
                     </div>
-                </div>
-                <div class="opcion">
-                    <img src="public/img/cervezaMaracuya.jpg" alt="Producto 2" class="img-opcion">
-                    <div class="texto-opcion">
-                        <h3>Nombre Producto 2</h3>
-                        <p>Descripción del producto 2.</p>
-                        <h2>Precio: $Y.YY</h2>
+
+                    <div class="slider-section slider-section-blond">
+                        <img src="public/img/cervezaMaracuya.jpg" alt="" class="slider-img">
+                        <div class="description">
+                            <h2>Título de la Cerveza</h2>
+                            <p>Descripción de la cerveza. Puede ser un poco más larga si es necesario.</p>
+                            <h3>Información Adicional</h3>
+                            <h2>$00000</h2>
+                        </div>
                     </div>
-                </div>
-                <div class="opcion">
-                    <img src="public/img/cervezaRoja.jpg" alt="Producto 1" class="img-opcion">
-                    <div class="texto-opcion">
-                        <h3>Nombre Producto 1</h3>
-                        <p>Descripción del producto 1.</p>
-                        <h2>Precio: $X.XX</h2>
+
+                    <div class="slider-section slider-section-blond">
+                        <img src="public/img/cervezaMango.jpg" alt="" class="slider-img">
+                        <div class="description">
+                            <h2>Título de la Cerveza</h2>
+                            <p>Descripción de la cerveza. Puede ser un poco más larga si es necesario.</p>
+                            <h3>Información Adicional</h3>
+                            <h2>$00000</h2>
+                        </div>
                     </div>
-                </div>
-                <div class="opcion">
-                    <img src="public/img/cevezaFrojos.jpg" alt="Producto 2" class="img-opcion">
-                    <div class="texto-opcion">
-                        <h3>Nombre Producto 2</h3>
-                        <p>Descripción del producto 2.</p>
-                        <h2>Precio: $Y.YY</h2>
+
+                    <div class="slider-section slider-section-blond">
+                        <img src="public/img/cervezaMaracuya.jpg" alt="" class="slider-img">
+                        <div class="description">
+                            <h2>Título de la Cerveza</h2>
+                            <p>Descripción de la cerveza. Puede ser un poco más larga si es necesario.</p>
+                            <h3>Información Adicional</h3>
+                            <h2>$00000</h2>
+                        </div>
                     </div>
+                    <div class="slider-btn slider-btn-right" id="btn-right-blond">&#62;</div>
+                    <div class="slider-btn slider-btn-left" id="btn-left-blond">&#60;</div>
                 </div>
-                <div class="opcion">
-                    <img src="public/img/chocolate.jpg" alt="Producto 1" class="img-opcion">
-                    <div class="texto-opcion">
-                        <h3>Nombre Producto 1</h3>
-                        <p>Descripción del producto 1.</p>
-                        <h2>Precio: $X.XX</h2>
+            </div>
+        </div>
+
+        <div class="producto">
+            <div class="container-slider">
+                <div class="slider" id="slider-red">
+                    <div class="slider-section slider-section-red">
+                        <div class="description-red">
+                            <h2>Título de la Cerveza</h2>
+                            <p>Descripción de la cerveza. Puede ser un poco más larga si es necesario.</p>
+                            <h3>Información Adicional</h3>
+                            <h2>$00000</h2>
+                        </div>
+                        <img src="public/img/cervezaRoja.jpg" alt="" class="slider-img-red">
                     </div>
-                </div>
-                <div class="opcion">
-                    <img src="public/img/chocolate2.jpg" alt="Producto 2" class="img-opcion">
-                    <div class="texto-opcion">
-                        <h3>Nombre Producto 2</h3>
-                        <p>Descripción del producto 2.</p>
-                        <h2>Precio: $Y.YY</h2>
+
+                    <div class="slider-section slider-section-red">
+                        <div class="description-red">
+                            <h2>Título de la Cerveza</h2>
+                            <p>Descripción de la cerveza. Puede ser un poco más larga si es necesario.</p>
+                            <h3>Información Adicional</h3>
+                            <h2>$00000</h2>
+                        </div>
+                        <img src="public/img/cevezaFrojos.jpg" alt="" class="slider-img-red">
                     </div>
+
+                    <div class="slider-section slider-section-red">
+                        <div class="description-red">
+                            <h2>Título de la Cerveza</h2>
+                            <p>Descripción de la cerveza. Puede ser un poco más larga si es necesario.</p>
+                            <h3>Información Adicional</h3>
+                            <h2>$00000</h2>
+                        </div>
+                        <img src="public/img/cervezaRoja.jpg" alt="" class="slider-img-red">
+                    </div>
+
+                    <div class="slider-section slider-section-red">
+                        <div class="description-red">
+                            <h2>Título de la Cerveza</h2>
+                            <p>Descripción de la cerveza. Puede ser un poco más larga si es necesario.</p>
+                            <h3>Información Adicional</h3>
+                            <h2>$00000</h2>
+                        </div>
+                        <img src="public/img/cevezaFrojos.jpg" alt="" class="slider-img-red">
+                    </div>
+                    <div class="slider-btn slider-btn-right" id="btn-right-red">&#62;</div>
+                    <div class="slider-btn slider-btn-left" id="btn-left-red">&#60;</div>
                 </div>
-                <div class="flechas">
-                    <i class="flecha-izquierda">&lt;</i>
-                    <i class="flecha-derecha">&gt;</i>
+            </div>
+        </div>
+
+        <div class="producto">
+            <div class="container-slider">
+                <div class="slider" id="slider-black">
+                    <div class="slider-section slider-section-black">
+                        <img src="public/img/chocolate.jpg" alt="" class="slider-img">
+                        <div class="description">
+                            <h2>Título de la Cerveza</h2>
+                            <p>Descripción de la cerveza. Puede ser un poco más larga si es necesario.</p>
+                            <h3>Información Adicional</h3>
+                            <h2>$00000</h2>
+                        </div>
+                    </div>
+
+                    <div class="slider-section slider-section-black">
+                        <img src="public/img/chocolate2.jpg" alt="" class="slider-img">
+                        <div class="description">
+                            <h2>Título de la Cerveza</h2>
+                            <p>Descripción de la cerveza. Puede ser un poco más larga si es necesario.</p>
+                            <h3>Información Adicional</h3>
+                            <h2>$00000</h2>
+                        </div>
+                    </div>
+
+                    <div class="slider-section slider-section-black">
+                        <img src="public/img/chocolate.jpg" alt="" class="slider-img">
+                        <div class="description">
+                            <h2>Título de la Cerveza</h2>
+                            <p>Descripción de la cerveza. Puede ser un poco más larga si es necesario.</p>
+                            <h3>Información Adicional</h3>
+                            <h2>$00000</h2>
+                        </div>
+                    </div>
+
+                    <div class="slider-section slider-section-black">
+                        <img src="public/img/chocolate2.jpg" alt="" class="slider-img">
+                        <div class="description">
+                            <h2>Título de la Cerveza</h2>
+                            <p>Descripción de la cerveza. Puede ser un poco más larga si es necesario.</p>
+                            <h3>Información Adicional</h3>
+                            <h2>$00000</h2>
+                        </div>
+                    </div>
+                    <div class="slider-btn slider-btn-right" id="btn-right-black">&#62;</div>
+                    <div class="slider-btn slider-btn-left" id="btn-left-black">&#60;</div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="nosotros" id="nosotros">
+        <h2 class="neona">Vive una aventura espacial</h2>
+        <p>Bienvenidos a COSMOZ, el lugar donde la artesanía cervecera se fusiona con la exploración
+            espacial de sabores. Situada en el corazón vibrante de Envigado, nuestra cervecería es una invitación a un
+            viaje
+            cósmico de descubrimiento cervecero. Desde las profundidades de nuestra pasión, hemos creado un universo de
+            cervezas
+            artesanales únicas, cada una con su propia galaxia de aromas y notas. Acompáñanos en esta travesía
+            cervecera, donde
+            cada sorbo es un paso hacia lo desconocido.</p>
+    </section>
+
+    <section class="presentacion">
+        <h2 class="equipo">Equipo de trabajo</h2>
+        <div class="employee-cards-container">
+            <div class="employee-card">
+                <div class="employee-content">
+                    <div class="employee-photo">
+                        <img src="public/img/pao.jpg" alt="Paola">
+                    </div>
+                    <div class="employee-text">
+                        <h2 class="employee-name">Paola Castaño Gomes</h2>
+                        <h3 class="employee-profession">Quimica Farmaceutica</h3>
+                        <h3 class="employee-profession">Maestra Cervecera</h3>
+                        <p class="employee-description">Breve descripción del trabajador.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="employee-card">
+                <div class="employee-content">
+                    <div class="employee-photo">
+                        <img src="public/img/jean.jpg" alt="Jean Marco">
+                    </div>
+                    <div class="employee-text">
+                        <h2 class="employee-name">Jean Marco Restrepo</h2>
+                        <h3 class="employee-profession">Diseño Grafico</h3>
+                        <h3 class="employee-profession">Director Creativo</h3>
+                        <p class="employee-description">Breve descripción del trabajador.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="employee-card">
+                <div class="employee-content">
+                    <div class="employee-photo">
+                        <img src="public/img/chaconcito.jpg" alt="Juan Pablo">
+                    </div>
+                    <div class="employee-text">
+                        <h2 class="employee-name">Juan Pablo Chacon</h2>
+                        <h3 class="employee-profession">Ingeniero Informatico</h3>
+                        <h3 class="employee-profession">Gerente de Desarrollo de Software</h3>
+                        <p class="employee-description">Breve descripción del trabajador.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="derechos-reservados">
+                © 2024 Cosmoz. Todos los derechos reservados.
+            </div>
+            <div class="redes-sociales">
+                <a href="https://www.instagram.com/cosmoz.cerveceria/?hl=es" target="_blank"><img src="public/img/insta.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com/profile.php?id=61552725685121" target="_blank"><img src="public/img/fb.png" alt="Facebook"></a>
+                <a href="https://twitter.com/Cosmoz_Fermenta" target="_blank"><img src="public/img/x.png" alt="Twitter"></a>
+            </div>
+            <div class="direccion-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d991.668419388828!2d-75.5813273!3d6.1744244!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4683ed43f221b1%3A0xe5244ba22718559b!2sEXPRESS%2040%20-%20MAGNOLIA!5e0!3m2!1ses!2sco!4v1704532827842!5m2!1ses!2sco" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
 
 </body>
 <script src="public/script/navBar.js"></script>
-<script src="public/script/Carusel.js"></script>
+<script src="public/script/slider.js"></script>
 
 </html>

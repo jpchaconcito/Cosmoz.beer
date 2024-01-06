@@ -1,22 +1,32 @@
 .inicio {
-    padding: 50px;
-    height: 400px;
-    background: url('/public/img/inicio2.jpg') no-repeat center center fixed;
-    background-size: cover;
-    text-align: center;
-    color: #ffffff; /* Letras blancas */
-  }
+  height: 500px;
+  padding: 50px;
+  background: url('/public/img/inicio.jpg') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
 
-  .color {
-    color: rgb(#551bb2,0.1); /* Color morado para el precio */
-  }
-  
-  .inicio h2 {
-    font-size: 2.5em;
-  }
-  
-  .inicio p {
-    font-size: 1.2em;
-    max-width: 800px;
-    margin: 0 auto; /* Centra el texto horizontalmente */
-  }
+.inicio h2 {
+  font-size: 2.5em;
+}
+
+.inicio p {
+  font-size: 1.3em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.neonv {
+  color: #ffffff;
+  text-shadow:
+    0 0 2px rgba(148, 0, 211, 1),
+    0 0 4px rgba(148, 0, 211, 1),
+    0 0 8px rgba(148, 0, 211, 1),
+    0 0 16px rgb(87, 38, 127, 1),
+    0 0 32px rgba(87, 38, 127, 1),
+    0 0 48px rgba(87, 38, 127, 1),
+    0 0 50px rgb(48, 20, 71, 1),
+    0 0 60px rgba(48, 20, 71, 1),
+    0 0 70px rgba(48, 20, 71, 1);
+}

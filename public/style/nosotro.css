@@ -1,0 +1,129 @@
+ .nosotros {
+     height: 500px;
+     padding: 50px;
+     background: url('/public/img/nosotros.jpg') no-repeat center center fixed;
+     background-size: cover;
+     text-align: center;
+     color: #ffffff;
+ }
+
+ .nosotros h2 {
+     font-size: 2.5em;
+ }
+
+ .nosotros p {
+     font-size: 1.8em;
+     max-width: 1000px;
+     margin: 0 auto;
+ }
+
+ .neona {
+     color: #ffffff;
+     text-shadow:
+         0 0 5px rgba(0, 178, 255, 1),
+         0 0 10px rgba(0, 178, 255, 1),
+         0 0 20px rgba(0, 178, 255, 1),
+         0 0 40px rgba(38, 104, 127, 1),
+         0 0 80px rgba(38, 104, 127, 1),
+         0 0 90px rgba(38, 104, 127, 1),
+         0 0 100px rgba(38, 104, 127, 1),
+         0 0 140px rgba(38, 104, 127, 1),
+         0 0 180px rgba(38, 104, 127, 1);
+ }
+
+ :root {
+     --card-width: 30%;
+     --card-height: 80%;
+     --photo-container-size: 200px;
+     --border-radius: 10px;
+ }
+
+ .equipo {
+     font-size: 2em;
+     margin-bottom: 20px;
+     color: #ffffff;
+     text-shadow:
+         0 0 2px rgba(148, 0, 211, 1),
+         0 0 4px rgba(148, 0, 211, 1),
+         0 0 8px rgba(148, 0, 211, 1),
+         0 0 16px rgb(87, 38, 127, 1),
+         0 0 32px rgba(87, 38, 127, 1),
+         0 0 48px rgba(87, 38, 127, 1),
+         0 0 50px rgb(48, 20, 71, 1),
+         0 0 60px rgba(48, 20, 71, 1),
+         0 0 70px rgba(48, 20, 71, 1);
+ }
+
+ .presentacion {
+     text-align: center;
+     background: #1f002b;
+ }
+
+ .employee-cards-container {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .employee-card {
+     width: var(--card-width);
+     height: var(--card-height);
+     margin: 20px;
+     padding: 15px;
+     background-color: #fff;
+     box-shadow:
+         0 0 2px rgb(148, 0, 211, 1),
+         0 0 4px rgba(148, 0, 211, 1),
+         0 0 8px rgba(148, 0, 211, 1),
+         0 0 16px rgb(87, 38, 127, 1),
+         0 0 32px rgba(87, 38, 127, 1),
+         0 0 48px rgba(87, 38, 127, 1),
+         0 0 50px rgb(48, 20, 71, 1),
+         0 0 60px rgba(48, 20, 71, 1),
+         0 0 70px rgba(48, 20, 71, 1);
+     ;
+     border-radius: var(--border-radius);
+     box-sizing: border-box;
+ }
+
+ .employee-content {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 100%;
+ }
+
+ .employee-text {
+     text-align: center;
+     margin-top: 15px;
+ }
+
+ .employee-photo {
+     width: var(--photo-container-size);
+     height: var(--photo-container-size);
+     border-radius: 50%;
+     overflow: hidden;
+     margin-bottom: 15px;
+ }
+
+ .employee-photo img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+ }
+
+ .employee-name {
+     font-size: 1.5em;
+     font-weight: bold;
+     margin-bottom: 8px;
+ }
+
+ .employee-profession {
+     font-style: italic;
+     color: #666;
+     margin-bottom: 12px;
+ }
+
+ .employee-description {
+     font-size: 1em;
+     color: #333;
+ }

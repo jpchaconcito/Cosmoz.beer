@@ -1,75 +1,116 @@
-/* Estilos para la sección de productos */
-.productos {
-    padding: 50px;
-    background-color: #f4f4f4; /* Color de fondo */
+.producto {
+    padding: 35px;
+    background: #14001c;
 }
 
-.productos h2 {
-    text-align: center;
-    color: #333; /* Color de texto oscuro */
-}
-
-.carrusel-container {
-    position: relative;
+.container-slider {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
     overflow: hidden;
-}
-
-.carrusel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.opcion {
-    flex: 0 0 100%;
-    box-sizing: border-box;
     position: relative;
-    background-color: #d2d2d2; /* Color de fondo de las opciones */
-    border: 1px solid #8827d2; /* Borde alrededor de las opciones */
-    margin-right: 10px; /* Espacio entre las opciones */
-    padding: 10px; /* Espaciado interno en las opciones */
+    box-shadow:
+        0 0 2px rgba(148, 0, 211, 1),
+        0 0 4px rgba(148, 0, 211, 1),
+        0 0 8px rgba(148, 0, 211, 1),
+        0 0 16px rgb(87, 38, 127, 1),
+        0 0 32px rgba(87, 38, 127, 1),
+        0 0 48px rgba(87, 38, 127, 1),
+        0 0 50px rgb(48, 20, 71, 1),
+        0 0 60px rgba(48, 20, 71, 1),
+        0 0 70px rgba(48, 20, 71, 1);
+        border-radius: 10px;
+}
+
+.slider {
     display: flex;
-    align-items: center;
+    width: 400%;
+    height: 500px;
+    margin-left: -100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.);
 }
 
-.img-opcion {
-    width: 50%; /* Ajustar según sea necesario */
-    height: 300px;
-    object-fit: cover; /* Ajusta la imagen para cubrir la caja manteniendo su relación de aspecto */
-}
-
-.texto-opcion {
-    box-sizing: border-box;
-    padding: 15px;
-    flex: 1;
-}
-
-.texto-opcion h3 {
-    margin-top: 0;
-    color: #333; /* Color de texto oscuro */
-}
-
-.texto-opcion p {
-    color: #666; /* Color de texto más claro */
-}
-
-.texto-opcion h2 {
-    margin-top: 10px;
-    color: #800080; /* Color morado para el precio */
-}
-
-/* Estilos para las flechas de navegación */
-.flechas {
-    position: absolute;
-    top: 50%;
+.slider-section {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-    z-index: 1000; /* Z-index alto para estar por encima de las opciones */
 }
 
-.flechas i {
-    font-size: 2em;
-    color: #800080; /* Color morado */
+.slider-img {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.slider-img-red {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+.description {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 0 10px 10px 0;
+    text-align: center;
+}
+
+.description-red {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+
+.description h2,
+.description h3,
+.description p {
+    margin: 10px 0;
+    color: #333;
+    text-align: center;
+}
+
+.slider-btn {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgba(148, 0, 211, 0.25);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 35%;
     cursor: pointer;
+    z-index: 2;
+}
+
+.slider-btn:hover {
+    background: #9400d3;
+    box-shadow:
+        0 0 2px rgba(148, 0, 211, 1),
+        0 0 4px rgba(148, 0, 211, 1),
+        0 0 8px rgba(148, 0, 211, 1),
+        0 0 16px rgb(87, 38, 127, 1),
+        0 0 32px rgba(87, 38, 127, 1),
+        0 0 48px rgba(87, 38, 127, 1),
+        0 0 50px rgb(48, 20, 71, 1),
+        0 0 60px rgba(48, 20, 71, 1),
+        0 0 70px rgba(48, 20, 71, 1);
+}
+
+.slider-btn-right {
+    right: 10px;
+}
+
+.slider-btn-left {
+    left: 10px;
 }
